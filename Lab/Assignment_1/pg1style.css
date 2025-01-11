@@ -1,0 +1,163 @@
+/* General body styling */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Header Section */
+.myDiv  {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 25px 0;
+}
+
+.myDiv p{
+   font-size: 2rem; 
+    color: #ffeb3b; 
+    font-weight: bold; 
+    margin: 0; 
+
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #2C3E50;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+/* Paragraphs */
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 10px 20px;
+}
+
+/* Lists */
+ul, ol {
+  margin: 20px auto;
+  padding: 0;
+  list-style-position: inside;
+  max-width: 80%;
+}
+
+ul li, ol li {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* Images */
+img {
+  display: block;
+  margin: 20px auto;
+  border: 5px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Tables */
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 80%;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+table th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Videos */
+video {
+  display: block;
+  margin: 20px auto;
+  border: 3px solid #ddd;
+  border-radius: 10px;
+}
+
+/* Audio */
+audio {
+  display: block;
+  margin: 20px auto;
+}
+
+/* IFrame */
+iframe {
+  display: block;
+  margin: 20px auto;
+  border: 5px solid #ddd;
+  border-radius: 10px;
+  width: 90%;
+  height: 300px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+      font-size: 0.9rem;
+  }
+
+  h1 {
+      font-size: 2rem;
+  }
+
+  h2 {
+      font-size: 1.8rem;
+  }
+
+  h3 {
+      font-size: 1.3rem;
+  }
+
+  table {
+      width: 100%;
+  }
+
+  iframe {
+      height: 200px;
+  }
+}
